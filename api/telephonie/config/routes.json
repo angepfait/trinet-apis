@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/telephonies",
+      "handler": "telephonie.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/telephonies/count",
+      "handler": "telephonie.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/telephonies/:id",
+      "handler": "telephonie.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/telephonies",
+      "handler": "telephonie.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/telephonies/:id",
+      "handler": "telephonie.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/telephonies/:id",
+      "handler": "telephonie.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

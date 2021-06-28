@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/antennes",
+      "handler": "antennes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/antennes/count",
+      "handler": "antennes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/antennes/:id",
+      "handler": "antennes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/antennes",
+      "handler": "antennes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/antennes/:id",
+      "handler": "antennes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/antennes/:id",
+      "handler": "antennes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

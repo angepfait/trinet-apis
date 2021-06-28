@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/surveillances",
+      "handler": "surveillance.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/surveillances/count",
+      "handler": "surveillance.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/surveillances/:id",
+      "handler": "surveillance.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/surveillances",
+      "handler": "surveillance.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/surveillances/:id",
+      "handler": "surveillance.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/surveillances/:id",
+      "handler": "surveillance.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

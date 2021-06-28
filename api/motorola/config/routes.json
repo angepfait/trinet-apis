@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/motorolas",
+      "handler": "motorola.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/motorolas/count",
+      "handler": "motorola.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/motorolas/:id",
+      "handler": "motorola.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/motorolas",
+      "handler": "motorola.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/motorolas/:id",
+      "handler": "motorola.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/motorolas/:id",
+      "handler": "motorola.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

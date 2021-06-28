@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reseaus",
+      "handler": "reseau.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reseaus/count",
+      "handler": "reseau.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reseaus/:id",
+      "handler": "reseau.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reseaus",
+      "handler": "reseau.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reseaus/:id",
+      "handler": "reseau.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reseaus/:id",
+      "handler": "reseau.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
